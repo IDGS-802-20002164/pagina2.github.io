@@ -1,0 +1,153 @@
+body {
+  background: url('../img/burbujas.png') right bottom no-repeat;
+  background-attachment: fixed;
+  background-position: 130%;
+  background-color: black;
+  height: 100%;
+  margin: 0;
+}
+
+
+  .nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(136, 215, 231);
+    z-index: 100;
+  }
+
+  .nav a{
+    color: black;    
+  }
+
+  .nav a:hover{
+    color: white;
+    
+  }
+  
+  .head1{
+    background-position: 130% ;
+  }
+
+  .head{
+    background-color: rgb(202, 235, 153);
+    
+  }
+
+  .Title {
+  
+    font-family: Fasthand;
+  }
+
+  .Title h2 {
+    font-size: 60px;
+  }
+
+ 
+  .footer p{
+    width: 100%;
+    float: left;
+    
+  }
+  
+  .footer{
+    width: 100%;
+  vertical-align: middle;
+  padding-left: 2.8em;
+  padding-right: 2.8em;
+  padding-bottom: 1em;
+    background-color: rgb(136, 215, 231);
+    color: black;
+    
+  }
+
+
+  
+  .redes{
+    width: 100%;
+    display: flex;
+    float: left;
+    margin-top: 3em;
+  }
+  
+  .redes a{
+    font-size: 2em;
+    color: rgba(255, 255, 255, .8);
+    padding-right: .3em;
+    transition: color 0.4s ease;
+    text-align: left;
+    display: inline-block;
+  }
+  
+  .redes a:hover{
+    color: white;
+  }
+   
+  .pie{
+    width: 100%;
+    display: flex;
+    font-size: .8em;
+  }
+  
+  .pie ul{
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .pie a {
+    font-size: .9em;
+    color: black;
+    display: block;
+    text-decoration: none;
+    transition: color 0.4s ease;
+    margin-right: 1.5em;
+    margin-bottom: .9em;
+  }
+  
+  .pie a:hover {
+    color: white;
+  }
+  
+  
+  .pie .lista1{
+    float: left;
+    
+  }
+
+  .pie .lista1 i{
+    
+    font-size: 32px;
+    
+  }
+  
+  .pie .lista2, .lista3{
+    float: right;
+  }
+  
+
+  .iconosFinales{
+    width: 30%;
+    display: flex;
+    float: right;
+    justify-content: flex-end;
+  }
+  
+  .iconosFinales ul{
+    list-style: none;
+  }
+  
+  .iconosFinales a img{
+    width: 32px;
+    float: right;
+    margin: .5em;
+    transition: color 0.4s ease;
+  }
+  
+  .custom-img {
+    width: 100%;
+    height: 300px; /* O la altura que desees */
+    object-fit: cover; /* Para que la imagen cubra todo el ancho y altura fijados */
+  }
+
+  
+  
